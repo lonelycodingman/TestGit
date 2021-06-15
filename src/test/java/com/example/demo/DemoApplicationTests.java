@@ -14,6 +14,7 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("Hello World");
         try {
             KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
             SecureRandom secureRandom = new SecureRandom();
