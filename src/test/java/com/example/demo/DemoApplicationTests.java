@@ -24,6 +24,7 @@ class DemoApplicationTests {
             for (int i=0;i< encode.length;i++){
                 System.out.print(encode[i]);
             }
+	    System.out.println("Hello World");
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
